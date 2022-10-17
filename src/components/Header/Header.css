@@ -1,0 +1,8 @@
+.header{
+    max-height: 200px;
+    background-color: rgb(62, 233, 62);
+    font-family: 'Fira Sans', sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 40px 0 40px 0;
+}
