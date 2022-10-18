@@ -3,6 +3,8 @@
 }
 
 .App-logo {
+  max-width: 80px;
+  max-height: 80px;
   height: 40vmin;
   pointer-events: none;
 }
@@ -29,5 +31,33 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .resume, .form-container{
+    flex-direction: column;
+    padding: 0px 16px 0px 16px;
+    gap: 20px;
+  }
+  .card-container {
+      width: unset !important;
+  }
+  .app-group-container {
+      max-width: unset !important;
+      padding: 0px 16px 0px 16px;
+  }
+
+  .form-container div:nth-last-child(n + 3){
+      display: flex;
+  }
+
+  .form-container div:nth-last-child(n + 3) label{
+      /* width: 30%; */
+      width: 80px;
+      margin-right: 10px;
+  }
+  .form-container div:nth-last-child(n + 3) .form-input{
+      max-width: 200px;
   }
 }
