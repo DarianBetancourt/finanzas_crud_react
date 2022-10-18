@@ -1,0 +1,25 @@
+.trash-button{
+    color: #ffffff;
+    padding: 8px 10px 7px 10px;
+    background-color: rgb(214, 33, 33);
+    border: none;
+    border-radius: 8px;
+    box-shadow:0 5px 10px 0 rgb(184, 176, 176);
+}
+
+.trash-button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+
+tbody tr td{
+    padding: 8px 0 8px 0;
+}
+
+.income{
+    background-color: rgba(121, 255, 121, 0.153);
+}
+.expense{
+    background-color: rgba(255, 152, 121, 0.153);
+}

@@ -1,8 +1,28 @@
 {
-    "entradas": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "salidas": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "amount": 100,
+      "description": "teste",
+      "expense": false
+    },
+    {
+      "id": 2,
+      "amount": 50,
+      "description": "teste",
+      "expense": true
+    },
+    {
+      "description": "teste",
+      "amount": "200",
+      "expense": false,
+      "id": 3
+    },
+    {
+      "description": "coca-cola",
+      "amount": "1",
+      "expense": true,
+      "id": 4
+    }
+  ]
 }
